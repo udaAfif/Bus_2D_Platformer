@@ -1,0 +1,125 @@
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none; 
+}
+
+html, body{
+  background: url(images/bg.jpg);
+
+  font-family: 'Play', arial, serif;
+  margin: 40px;
+  padding: 0px;
+}
+
+em {
+  margin: 0 6px;
+  color: yellow;
+}
+
+.startscreen {
+  background: #eee url(images/starting_screen.jpg);
+}
+
+.gamebg-level0 {
+  background: #eee url(images/background1.jpg);
+}
+
+.gamebg-level1 {
+  background: #eee url(images/bg2.jpg);
+}
+
+.gamebg-level2 {
+  background: #eee url(images/bg3.jpg);
+}
+
+.gamebg-level3 {
+  background: #eee url(images/bg4.jpg);
+}
+
+.gamebg-level4 {
+  background: #eee url(images/bg5.jpg);
+}
+
+.gamebg-won {
+  background: #eee url(images/game_completed_screen.jpg);
+}
+
+#game {
+  width: 1300px;
+}
+
+#asset {
+  position: absolute;
+  top: -99999px;
+}
+
+#game-container {
+  position: relative;
+  width: 1300px;
+  margin: auto;
+}
+
+
+
+.progressbar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  
+
+  width: 300px;
+  height:20px;
+  margin: 2px;
+  border: 1px solid #000;
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8C906F), color-stop(48%,#8C906F), color-stop(51%,#323721), color-stop(54%,#55624F), color-stop(100%,#55624F)); /* webkit */
+  background: gradient(linear, left top, left bottom, color-stop(0%,#8C906F), color-stop(48%,#8C906F), color-stop(51%,#323721), color-stop(54%,#55624F), color-stop(100%,#55624F));
+}
+
+.progressbar .fuel-value {
+  height:20px;
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6ff02), color-stop(48%,#ff1302), color-stop(51%,#2f00ff), color-stop(54%,#d105fa), color-stop(100%,#ff0202)); /* webkit */
+  background: gradient(linear, left top, left bottom, color-stop(0%,#e6ff02), color-stop(48%,#ff1302), color-stop(51%,#2f00ff), color-stop(54%,#d105fa), color-stop(100%,#ff0202));
+}
+
+
+.touch-control {
+  position: absolute;
+}
+#left-button {
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+}
+#right-button {
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+}
+#restart-button {
+  top: 0;
+  left: 50%;
+  left: calc( 50% - 50px );
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+#instruction {
+  position: center;
+  bottom: 0;
+  left: 0;
+  padding-left: 400px;
+  color: white;
+  font-style: italic;
+  font-size: 17px;
+}
+
+
+
+
+
